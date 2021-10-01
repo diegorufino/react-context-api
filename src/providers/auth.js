@@ -13,3 +13,5 @@ export const AuthProvider = (props) => {
     </AuthContext.Provider>
   );
 };
+
+export const useAuth = () => React.useContext(AuthContext);
