@@ -7,7 +7,6 @@ const Profile = () => {
   return (
     <div>
       <hr />
-      <p>Profile</p>
       <h1>{user.name}</h1>
     </div>
   );
